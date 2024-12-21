@@ -24,11 +24,6 @@ public class Bill {
     private double amount;
     @ExcelProperty("createTime")
     private LocalDateTime createTime;
-
-    public static void main(String[] args) {
-        Bill b = new Bill().builder().id(1).name("test").category("test").amount(100).createTime(LocalDateTime.now()).build();
-
-    }
 }
 
 
